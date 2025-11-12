@@ -1,0 +1,77 @@
+{
+  "name": "medusa-product-option-templates",
+  "version": "0.0.1",
+  "description": "Medusa v2 plugin to define reusable product option templates per product type and apply them to products from the Admin.",
+  "author": "Bilofy (https://bilofy.com)",
+  "license": "MIT",
+  "files": [
+    ".medusa/server"
+  ],
+  "exports": {
+    "./package.json": "./package.json",
+    "./workflows": "./.medusa/server/src/workflows/index.js",
+    "./.medusa/server/src/modules/*": "./.medusa/server/src/modules/*/index.js",
+    "./modules/*": "./.medusa/server/src/modules/*/index.js",
+    "./providers/*": "./.medusa/server/src/providers/*/index.js",
+    "./*": "./.medusa/server/src/*.js",
+    "./admin": {
+      "import": "./.medusa/server/src/admin/index.mjs",
+      "require": "./.medusa/server/src/admin/index.js",
+      "default": "./.medusa/server/src/admin/index.js"
+    }
+  },
+  "keywords": [
+    "medusa",
+    "plugin",
+    "medusa-plugin-other",
+    "medusa-plugin",
+    "medusa-v2"
+  ],
+  "scripts": {
+    "build": "medusa plugin:build",
+    "dev": "medusa plugin:develop",
+    "publish": "medusa plugin:publish",
+    "prepublishOnly": "medusa plugin:build"
+  },
+  "dependencies": {
+    "@medusajs/icons": "latest",
+    "@medusajs/ui": "latest",
+    "awilix": "^8.0.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@medusajs/admin-sdk": "2.11.3",
+    "@medusajs/cli": "2.11.3",
+    "@medusajs/framework": "2.11.3",
+    "@medusajs/js-sdk": "2.11.3",
+    "@medusajs/medusa": "2.11.3",
+    "@medusajs/test-utils": "2.11.3",
+    "@swc/core": "1.9.3",
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.15",
+    "@types/react-dom": "^18.3.1",
+    "pg": "^8.14.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "vite": "5.2.11",
+    "yalc": "^1.0.0-pre.53"
+  },
+  "peerDependencies": {
+    "@medusajs/admin-sdk": "2.11.3",
+    "@medusajs/cli": "2.11.3",
+    "@medusajs/framework": "2.11.3",
+    "@medusajs/icons": "2.11.3",
+    "@medusajs/medusa": "2.11.3",
+    "@medusajs/test-utils": "2.11.3",
+    "@medusajs/ui": "4.0.18",
+    "awilix": "^8.0.1",
+    "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
