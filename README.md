@@ -5,10 +5,10 @@ Make product options reusable. This Medusa Admin plugin lets you define option t
 ## Screenshots
 
 ### Product Type — Create & Manage Templates
-![Product type — create and manage templates](https://i.postimg.cc/T1JDfmhs/Screenshot-2025-11-12-at-21-25-21.jpg)
+![Product type — create and manage templates](https://github.com/bilofy/assets/blob/main/medusa-plugin/img-1.jpg?raw=true)
 
 ### Product Detail — Apply with Use / Use All
-![Product detail — apply templates with Use / Use All](https://i.postimg.cc/fyf9DXkv/Screenshot-2025-11-12-at-21-27-13.jpg)
+![Product detail — apply templates with Use / Use All](https://raw.githubusercontent.com/bilofy/assets/refs/heads/main/medusa-plugin/img-2.jpg)
 
 ## Install (local clone)
 - This plugin isn’t published to npm yet. Clone the repo and follow the official guide for how link a local plugin to your Medusa application. https://docs.medusajs.com/learn/fundamentals/plugins/create
