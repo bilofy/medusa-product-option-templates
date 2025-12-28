@@ -11,5 +11,5 @@ Make product options reusable. This Medusa Admin plugin lets you define option t
 ![Product detail — apply templates with Use / Use All](https://raw.githubusercontent.com/bilofy/assets/refs/heads/main/medusa-plugin/img-2.jpg)
 
 ## Install (local clone)
-- This plugin isn’t published to npm yet. Clone the repo and follow the official guide for how link a local plugin to your Medusa application. https://docs.medusajs.com/learn/fundamentals/plugins/create
+- This plugin isn’t published to npm yet. Clone the repo and follow the official guide for how to link a local plugin to your Medusa application. https://docs.medusajs.com/learn/fundamentals/plugins/create
 - After adding the plugin to your Medusa Application run the database migrations `npx medusa db:migrate`.
